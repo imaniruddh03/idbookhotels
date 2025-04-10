@@ -6,7 +6,7 @@ import { ArrowDown, ArrowUp } from 'lucide-react';
 const ITEMS_PER_PAGE = 5;
 
 const UserTable: React.FC = () => {
-  const { darkMode, toggleDarkMode } = useDarkModeStore();
+  const { darkMode } = useDarkModeStore();
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'joinedDate' | null>(null);
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
