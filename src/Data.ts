@@ -6,7 +6,7 @@ export const users: {
     joinedDate: string;
     
   }[] = [
-    { id: 1, name: 'John Doe', email: 'john@example.com', role: 'Admin', joinedDate: '2025-01-15' },
+    { id: 1, name: 'Alice Johnson', email: 'alice@example.com', role: 'Admin', joinedDate: '2024-12-01' },
     { id: 2, name: 'Jane Smith', email: 'jane@example.com', role: 'User', joinedDate: '2025-02-03' },
     { id: 3, name: 'Robert Johnson', email: 'robert@example.com', role: 'Editor', joinedDate: '2025-02-17' },
     { id: 4, name: 'Emily Davis', email: 'emily@example.com', role: 'User', joinedDate: '2025-03-01' },
