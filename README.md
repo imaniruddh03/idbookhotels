@@ -1,25 +1,31 @@
-# React + TypeScript + Vite
+# 🧑‍💻 User Dashboard (React + TypeScript + Vite)
 
-Build a User Dashboard that displays basic analytics and user data using modern React
-tools and best practices.
+A modern and responsive User Dashboard built using **React**, **TypeScript**, and **Vite**. This project demonstrates key UI components including KPI cards, charts, tables with search/sort/pagination, and a **dark mode toggle** using **Zustand** for state management.
 
+## 🔥 Features
 
-Overview:
--You are tasked with creating a simple, elegant dashboard interface with:
--KPI cards
--A basic chart
-A table of users with a filter and sort
-Dark mode toggle
+- 📊 KPI Cards for basic analytics
+- 📈 Simple and clean chart (e.g., user growth)
+- 🧑‍💼 User table with:
+  - 🔍 Case-insensitive search by name/email
+  - ↕️ Sort by Name and Joined Date
+  - 📑 Client-side pagination
+- 🌙 Dark Mode Toggle using Zustand
+- ⚡️ Fast Vite-based development environment
 
-Functionality:
-Implement dark mode toggle using Zustand
-Search filters the user table by name or email (case-insensitive)
-Sorting on columns (at least on "Name" and "Joined Date")
-Paginate the table (client-side is fine)
+## 🛠 Tech Stack
 
-For running the code:
-npm install
-npm run dev
+- **React 18**
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS** (for styling)
+- **Zustand** (for state management)
+- **Recharts** (for charts)
+- **Lucide-react** or similar icon library
 
+## 🚀 Getting Started
 
-
+1. **Clone the repository**
+2. **npm install**
+3. **npm run dev**
+   
