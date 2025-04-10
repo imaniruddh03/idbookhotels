@@ -5,9 +5,9 @@ tools and best practices.
 
 
 Overview:
-You are tasked with creating a simple, elegant dashboard interface with:
-KPI cards
-A basic chart
+-You are tasked with creating a simple, elegant dashboard interface with:
+-KPI cards
+-A basic chart
 A table of users with a filter and sort
 Dark mode toggle
 
